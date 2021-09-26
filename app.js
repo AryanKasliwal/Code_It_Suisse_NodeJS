@@ -14,7 +14,6 @@ app
   })
   .listen(PORT, () => {
     console.log(`Listening on ${PORT}`);
-    fnc();
   } );
 
 app.post("/tic-tac-toe",(req,res) => {
